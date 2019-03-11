@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/index.css">
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+    <body>
+        <div id="example">
+          <p>Original Message: "{{message}}"</p>
+          <p>Computed reversed Message: "{{reversedMessage}}"</p>
+        </div>
+        <div id="demo">
+            
+        </div>
+        <div id="watch-example">
+            <p> Ask a yes/no quesiton
+                <input v-model="question">
+            </p>
+            <p>{{ answer }}</p>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/axios@0.12.0/dist/axios.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/lodash@4.13.1/lodash.min.js"></script>
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
